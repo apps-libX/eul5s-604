@@ -8,6 +8,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 <body>
+
+    @if(Session::has('message'))
+        <div class="alert alert-info">
+            {{Session::get('message')}}
+        </div>
+    @endif
+
     @yield('content')
 </body>
 </html>

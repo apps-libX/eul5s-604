@@ -1,6 +1,6 @@
 <?php
 
-// php artisan make:controller ContactController
+// php artisan make:request ContactFormRequest
 
 Route::get('/', function () {
     return view('welcome');
