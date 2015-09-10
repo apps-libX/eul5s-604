@@ -1,6 +1,6 @@
 <?php
 
-// php artisan make:request ContactFormRequest
+// php artisan migrate
 
 Route::get('/', function () {
     return view('welcome');
